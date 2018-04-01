@@ -1,0 +1,368 @@
+/*整体样式设计*/
+body{ margin:0 auto; padding:0; width:100%; background-color:#dcdcdc;}
+ul{ margin:0; padding:0; list-style-type:none;}
+a{text-decoration:none; color:#CBB9BA; font-family:"微软雅黑";}
+p{margin:0; font-family:"微软雅黑";}
+h2{font-family:"微软雅黑";
+margin:0;
+padding:5px;}
+
+/*页头部分*/
+#header{
+	margin:0 auto;
+    width:100%;
+	height:300px;	
+}
+#nav{
+	 background-color:#2f2f2f;
+	 width:100%;
+	 height:70px;
+	 position:fixed;
+	 z-index:1;
+}
+#nav #logo{ 
+  float:left;
+  padding-left:150px;
+}
+#nav ul{float:right;}
+#nav ul li{float:left;} 
+	#daohan{display: block;}
+	#nav1{
+		width: 1080px;
+	}
+#search{
+	margin:0 auto;
+    width:1080px;
+    height:299px;
+}
+
+/*内容部分*/
+#content{
+	margin:0 auto;
+	width:1080px;
+}
+#maincontent{float:left;
+             width:820px;			 
+}
+#content1{float:left;
+          width:400px;		 
+}
+#music{
+	height:77px;
+}
+#content2{
+	float:right;
+     width:400px;
+		  
+}
+#menu{
+		   width:400px;
+		   height:400px;
+		   margin:20px 0;
+		   position:relative;
+		   background-color:#000000;		   	   
+}
+
+
+#content3{
+	width:1080px;
+    float:left;
+    margin-bottom:40px;
+}
+#secondcontent{
+    float:right;
+    width:220px;
+	margin:0;
+			   
+}
+#box1{      
+  position:relative;
+  width:400x;
+  height:267px;
+  margin:20px 0;
+  background-color:#000000;				
+}
+#box2{  background-color:#000000;
+		width:400px;
+		height:267px;
+		margin:20px 0;
+		position:relative;		
+}
+#box3{width:400px;
+      border:#626262 2px solid;
+	  border-radius:5px;
+	  margin:20px 0;
+	  position:relative;
+	  background-color:#EAF0CE;
+}
+#weixing{
+	background-color:#FFFFFF;
+    height:250px;
+}
+#weixing p{
+	text-align:center;
+}
+/*页脚部分*/
+#footer{ 
+        clear:both;
+        margin:0 auto;
+		text-align:center;
+		background-color:#2f2f2f;
+		width:100%;
+		height:130px;
+		overflow:hidden;
+}
+#footer #right{
+	float:right;
+    padding-right:200px;
+}
+#footer #left{
+	float:left;
+	align-content: center;
+    padding-left:200px;
+}
+#content3 div{
+	float:left;
+	border:0;
+}
+/*美工*/
+#nav #logo h1{
+	margin:0;
+    color:#F7F2F2;
+    float:left;
+    font-family:"微软雅黑";
+}
+#nav{
+	line-height:70px
+}
+#nav ul{
+	padding-right:150px;
+	}
+#nav ul li a{
+  display:block;
+  font-family:"微软雅黑";
+  font-size:16px;
+  width:97px;
+  text-align:center;
+}
+	#nav #xiala{display: none;
+	padding: 0;
+	background-color:yellow;}
+	#nav #xiala li a{display:block;
+  font-family:"微软雅黑";
+  text-align:center;}
+	#nav #xiala li{float: none;}
+	#nav li:hover #xiala{display: block;}
+	#xiala li a{color: black;}
+#search input {
+  width: 250px;
+  height: 42px;
+  border: 2px solid #7BA7AB;
+  border-radius: 5px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+  font-family:"微软雅黑";
+  font-size:18px;
+}
+#search button {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	border: none;
+	background: #7BA7AB;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	left:209px;
+	bottom:2px;
+	font-size:18px;
+	font-family:"微软雅黑";
+	color:#FFFFFF;
+}
+form {
+  position: relative;
+  width: 250px;
+  margin: 0 auto;
+  bottom:80px;
+}
+#box3 a{color:#000000;
+font-family:"微软雅黑";
+font-size:14px;
+}
+#box3 img{ background-color:#000000;
+opacity:0.7;
+}
+#secondcontent #new3{border:#626262 2px solid;
+margin:20px 0;
+}
+#content3 a{
+   margin:10px;
+}
+#content3 h2{ 
+   margin-bottom:20px;
+}
+#footer #left a{
+	line-height:100px;
+}
+#footer #right{
+	line-height:100px;
+}
+#footer p{
+	text-align:center;
+    color:#CBB9BA;
+}
+#new3{ 
+   background-color:#FFFFFF;
+   width:220px;
+   height:400px;
+}
+#new3 a{
+	color:#474747;
+    padding:10px;
+}
+#new3 p{
+	padding:10px;
+}
+#menu div h3{top:85%;
+   position:absolute;
+   left:8%;
+   font-family:"微软雅黑";
+   color:#FFFFFF;
+   font-weight:bolder;
+}
+#menu div p{
+   position:absolute;
+   left:8%;
+   top:100%;
+   font-family:"微软雅黑";
+   color:#FFFFFF;
+   opacity:0;
+}
+#box2 div h3{
+	position: absolute;
+	font-family: "微软雅黑";
+	color:#FFFFFF;
+	font-weight: bolder;
+	opacity: 1;
+	top:58%;
+	left:10px;
+	padding:10px;
+}
+#box2 div p{
+	position: absolute;
+	font-family: "微软雅黑";
+	color: #FFFFFF;
+	opacity: 0;
+	top:50%;
+    left:10px;
+	padding:10px;
+}
+#box1 div h3{
+	position: absolute;
+	font-family: "微软雅黑";
+	color: #FFFFFF;
+	font-weight: bolder;
+	opacity: 1;
+	top:60%;
+	left:10px;
+	padding:10px;
+}
+#box1 div p{
+	position: absolute;
+	font-family: "微软雅黑";
+	color: #FFFFFF;
+	opacity: 0;
+	top:50%;
+    left:10px;
+	padding:10px;
+	font:"微软雅黑" 12px;
+}
+
+/*交互效果设计*/
+
+#nav ul li:hover{
+	padding: 10px;
+	background-color:#CBB9BA;
+	display:block;
+	transition:all 0.2s ease-in 0s;
+	text-align:center;}
+	#nav ul li a:hover {
+		color: #000000;
+		text-align:center;
+	}
+	#xiala li a:hover{
+	color:#000000;
+	
+	display:block;
+	text-align:center;	
+	}
+#content1 #menu:hover img{
+transition:all 0.3s ease-in 0s;
+opacity:0.5;
+transform:scale(1.03,1.03);
+}
+#menu:hover div h3{
+	top:75%;
+	transition:all 0.3s ease-in 0s;
+}
+#menu:hover div p{
+	top:89%;
+	opacity:1;
+	transition:all 0.3s ease-in 0s;
+}
+#content1 #box2:hover img{
+	transition:all 0.3s ease-in 0s;
+    opacity:0.5;
+	transform:translate(0,10px);
+}
+#box2:hover div h3{
+	color:#FFFFFF;
+	transition:all 0.4s ease-in 0s;
+	opacity:1;
+	top:30%;
+}
+#box2:hover div p{
+	transition:all 0.4s ease-in 0s;
+	opacity:1;
+}
+#box1:hover img{
+	transition:all 0.3s ease-in 0s;
+    opacity:0.4;
+	transform:translate(0,-10px);
+}
+#box1:hover div h3{
+	transition:all 0.4s ease-in 0s;
+	opacity:1;
+	top:10%;
+}
+#box1:hover div p{
+	transition:all 0.4s ease-in 0s;
+	opacity:1;
+	top:30%;
+}
+#content2 #box3:hover img{
+	transition:all 0.2s ease-in 0s;
+	opacity:1;
+	transform:scale(0.8,0.8)
+}
+#content2 #box3:hover p,#content2 #box3:hover a{
+	color:#FFFFFF;
+    transform:translate(5px,-20px);
+    transition:ease-in 0.2s 0s;
+}
+#content2 #box3:hover table{
+	transform:translate(5px,-10px);
+    transition:ease-in 0.2s 0s;
+}
+#content2 #box3:hover{
+	background-color:#000000;
+	transition:ease-in 0.2s 0s;
+}
+
+#content3 div img:hover{
+	transition:all 0.2s ease-in 0s;
+	background-color:#FFFFFF;
+    transition:all 0.2s ease-in 0s;
+    transform:scale(1.2,1.2);
+    z-index:1;
+}
